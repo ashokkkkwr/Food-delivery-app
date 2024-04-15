@@ -1,0 +1,70 @@
+/* Signup.css */
+
+.signup {
+    position: relative;
+    left: 40%;
+    top: 10vh;
+    width: 400px; /* Increased width by 25% */
+    padding: 37.5px; /* Increased padding by 25% */
+    padding-top: 100px; /* Adjusted padding-top */
+}
+
+.signup__field {
+    padding: 25px 0px; /* Increased padding by 25% */
+    position: relative;
+}
+
+.signup label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup input {
+    border: none;
+    border-bottom: 2px solid #FC8A06;
+    background: none;
+    padding: 12.5px; /* Increased padding by 25% */
+    padding-left: 0px; /* Adjusted padding-left */
+    font-weight: 700;
+    font-size: 15px;
+    width: 75%;
+    transition: .2s;
+    color: #000000; /* Added text color */
+}
+
+.signup input:active,
+.signup input:focus,
+.signup input:hover {
+    outline: none;
+    border-bottom-color: #FC8A06;
+}
+
+.signup button {
+    background: #fff;
+    font-size: 17.5px; /* Increased font-size by 25% */
+    margin-top: 37.5px; /* Increased margin-top by 25% */
+    padding: 20px 20px; /* Increased padding by 25% */
+    border-radius: 32.5px; /* Increased border-radius by 25% */
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #927656;
+    box-shadow: 0px 2px 2px #FC8A06;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.signup button:active,
+.signup button:focus,
+.signup button:hover {
+    border-color: #FC8A06;
+    outline: none;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

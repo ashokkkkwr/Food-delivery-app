@@ -1,0 +1,51 @@
+
+.second_nav{
+    padding: 5vh;
+    margin-left: 12vh;
+    margin-right: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .second_nav ul {
+    display: flex;
+  }
+  .second_nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 40px; /* Adjust the right margin to add space between list items */
+  
+  }
+  .second_nav p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .restaurant{
+    display: flex;
+    justify-content:center;
+    border-radius: 12px;
+    
+  }
+  .restaurant img {
+    margin: 10px;
+    padding: 10px;
+    width: 440px;
+    height: 250px;
+    border-radius: 3vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+}
+
+ 
+  .texts{
+    margin-left :50px;
+    justify-content: center;
+  }
+  .texts h3{
+font-family: 'Poppina',sans-serif;
+    color: #FC8A06;
+    font-weight: 500;
+
+  }

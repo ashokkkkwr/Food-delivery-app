@@ -1,0 +1,67 @@
+/* ProductDetails.css */
+
+/* ProductDetails.css */
+
+/* ProductDetails.css */
+
+.product-card {
+    display: inline-block;
+    width: 250px; /* Increase the width */
+    height: 350px; /* Increase the height */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text content to start from the left */
+    overflow: hidden; /* Hide overflow to prevent uneven card sizes */
+}
+
+.product-image {
+    width: 100%;
+    height: 150px; /* Set the image height for uniformity */
+    object-fit: cover; /* Ensure images maintain aspect ratio and fill the container */
+    border-radius: 4px;
+}
+
+.product-details {
+    height: calc(100% - 150px); /* Adjust the height to accommodate remaining content */
+    overflow-y: auto; /* Add vertical scroll if content exceeds card height */
+}
+
+
+
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+
+.product-price {
+    font-size: 16px;
+    color: #888;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.navigation-buttons button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,98 @@
+/* Login.css */
+
+.login {
+    position: relative;
+    left: 40%;
+    width: 400px; /* Increased width by 25% */
+    padding: 37.5px; /* Increased padding by 25% */
+    padding-top: 195px; /* Increased padding-top by 25% */
+}
+
+.login__field {
+    padding: 25px 0px; /* Increased padding by 25% */
+    position: relative;
+}
+
+.login__icon {
+    position: absolute;
+    top: 37.5px; /* Increased top position by 25% */
+    color: #7875B5;
+}
+
+.login__input {
+    border: none;
+    border-bottom: 2px solid #FC8A06;
+    background: none;
+    padding: 12.5px; /* Increased padding by 25% */
+    padding-left: 30px; /* Adjusted padding-left to maintain alignment */
+    font-weight: 700;
+    font-size: 15px;
+    width: 75%;
+    transition: .2s;
+    color: #000000; /* Added text color */
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+    outline: none;
+    border-bottom-color: #FC8A06;
+}
+
+.login__submit {
+    background: #fff;
+    font-size: 17.5px; /* Increased font-size by 25% */
+    margin-top: 37.5px; /* Increased margin-top by 25% */
+    padding: 20px 20px; /* Increased padding by 25% */
+    border-radius: 32.5px; /* Increased border-radius by 25% */
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #927656;
+    box-shadow: 0px 2px 2px #FC8A06;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+    border-color: #FC8A06;
+    outline: none;
+}
+
+.button__icon {
+    font-size: 30px; /* Increased font-size by 25% */
+    margin-left: auto;
+    color: #7875B5;
+}
+
+.social-login {
+    position: absolute;
+    height: 175px; /* Increased height by 25% */
+    width: 200px; /* Increased width by 25% */
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-login__icon {
+    padding: 25px 12.5px; /* Increased padding by 25% */
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #7875B5; /* Adjusted text-shadow to maintain visibility */
+}
+
+.social-login__icon:hover {
+    transform: scale(1.5);
+}

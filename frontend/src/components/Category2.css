@@ -1,0 +1,65 @@
+.forth_nav {
+  padding: 5vh;
+  margin-left: 12vh;
+  margin-right: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forth_nav p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+#popular1 {
+  display: flex;
+  justify-content: center;
+}
+
+#popular1 img {
+  margin: 10px;
+  width: 210px;
+  height: 150px;
+  border: 1px solid #e9e3e3;
+  border-radius: 12px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between; /* Aligns buttons at the ends */
+}
+
+.navigation button {
+  background-color: transparent;
+  color: #333; /* Dark gray color */
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px 10px; /* Adjusted padding */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.navigation button:hover {
+  background-color: rgb(255, 51, 0); /* Dark gray color on hover */
+  color: #fff; /* White color on hover */
+  border-color: rgb(255, 51, 0); /* Dark gray border color on hover */
+}
+.next {
+  position: relative;
+  top: -15vh;
+  right: 23vh;
+}
+.prev {
+  position: relative;
+  top: -15vh;
+  left: 23vh;
+}
+.cheif p{
+  position: absolute;
+ 
+}

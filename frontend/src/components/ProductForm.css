@@ -1,0 +1,47 @@
+/* ProductForm.css */
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.create h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.create input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 8px;
+}

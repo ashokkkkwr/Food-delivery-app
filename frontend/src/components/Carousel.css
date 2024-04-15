@@ -1,0 +1,108 @@
+.main {
+  position: relative;
+  padding: 15rem;
+  background-color: #fbfbfb;
+  border: 1px solid #e2dcdc;
+  max-width: 130vh;
+  max-height: 15vh;
+  margin-left: 15vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.oval {
+  position: absolute;
+  top: 63%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+  width: 150vh;
+  height: 600px;
+  background: rgb(255, 51, 0);
+  border-radius: 30%;
+}
+
+.container_img {
+  position: absolute;
+  top: 24vh;
+  left: 115vh;
+  width: 55vh;
+  height: 50vh;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.container_img1 {
+  position: absolute;
+  top: 10vh;
+  left: 55vh;
+  width: 90vh;
+  height: 60vh;
+  z-index: 2;
+  
+}
+
+.p {
+  position: relative;
+  top:-10vh;
+  left: -15vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p1 {
+  position: relative;
+  top: -10px;
+  font-size: 16px;
+}
+
+.p2 {
+  position: relative;
+  top: 10px;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.p3 {
+  position: relative;
+  
+  font-size: 54px;
+  color: rgb(255, 51, 0);
+}
+.p4{
+  position: relative;
+  top: 50px;
+}
+
+.search-container {
+  position: relative;
+  top: 45px;
+  left: 40px;
+  margin-top: 20px;
+  
+}
+
+.search-container input[type="text"] {
+  
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.search-container button {
+  position: absolute;
+  left: 20vh;
+  height: 52px;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: rgb(255, 51, 0);
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #333;
+}
